@@ -18,7 +18,7 @@ app.use(cookieSession({
 }))
 
 //使用路由
-app.use('/api',apiRouter);
+app.use('/',apiRouter);
 
 //监听端口号
 app.listen(process.env.PORT || '5000')

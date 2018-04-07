@@ -8,10 +8,6 @@ const schema = new db.Schema({
     password: {
         type: String,
         required: true
-    },
-    roles: {
-        type: String,
-        required: true
     }
 })
 
